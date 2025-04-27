@@ -1,0 +1,16 @@
+<!doctype html><html lang="pl">
+<body>
+  <h2>Wybierz miasto</h2>
+
+  <form method="post">
+    <select name="pair">
+      {{range .}}
+        <option value="{{index . 0}}|{{index . 1}}">
+          {{index . 1}}, {{index . 0}}
+        </option>
+      {{end}}
+    </select>
+    <button type="submit">Pokaż pogodę</button>
+  </form>
+</body>
+</html>

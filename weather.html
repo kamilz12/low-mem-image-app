@@ -1,0 +1,14 @@
+<!doctype html><html lang="pl">
+<body>
+  <h2>Pogoda</h2>
+  <ul>
+    <li>Miasto:          {{.name}}</li>
+    <li>Temperatura:     {{index .main "temp"}} °C</li>
+    <li>Odczuwalna:      {{index .main "feels_like"}} °C</li>
+    <li>Wilgotność:      {{index .main "humidity"}} %</li>
+    <li>Warunki:         {{index (index .weather 0) "description"}}</li>
+    <li>Wiatr:           {{index .wind "speed"}} m/s</li>
+  </ul>
+  <a href="/">⟵ Wróć</a>
+</body>
+</html>

@@ -67,5 +67,4 @@ W ramach części dodatkowej wykonano:
 - Skuteczną analizę bezpieczeństwa (bez krytycznych podatności).
 
 Linki do repozytoriów:
-- GitHub: [TUTAJ WSTAW LINK DO GITHUBA]
-- DockerHub: [TUTAJ WSTAW LINK DO DOCKERHUBA]
+

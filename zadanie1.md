@@ -89,5 +89,4 @@ W ramach zadania:
 - Zweryfikowano poprawne działanie aplikacji poprzez stronę WWW oraz logi systemowe.
 
 Linki do repozytoriów:
-- GitHub: [TUTAJ WSTAW LINK DO GITHUBA]
-- DockerHub: [TUTAJ WSTAW LINK DO DOCKERHUBA]
+

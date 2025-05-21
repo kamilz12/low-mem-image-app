@@ -20,18 +20,11 @@ Such a minimal image size brings several practical advantages:
 - **Lower disk and network resource usage**,  
 - **Improved security** by reducing the potential attack surface.
 
-The following image confirms the successful local build of the optimized Docker image:
-
-![image](https://github.com/user-attachments/assets/49719049-5433-416e-a560-a99a8c408f18)
-
 The image was built using the command:
 
 ```bash
 docker buildx build --platform linux/amd64 --no-cache -t kziolkowski/weather-go:latest --load .
 ```
 
-After building, the container was successfully run:
-
-![image](https://github.com/user-attachments/assets/b7fd3e7e-dd87-403f-b1d8-66374aaa852a)
 
 In conclusion, the final result fully meets the original goal – delivering a **lightweight, portable, and production-ready containerized application** with an impressively small footprint.
